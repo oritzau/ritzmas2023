@@ -7,7 +7,7 @@ document.getElementById("codeForm").addEventListener("submit", function (event) 
     const TEST = "0000";
     const KATE = "BigKittyQuishMe";
     const MEG = "MilanoCookie"
-    const MOM = "She'sAbroad"
+    const MOM = "SheIsAbroad"
     const DAD = "BlooberTurtle"
     const GRANDAD = "ButtonMan";
     const MEGHAN = "Bubby<3"
