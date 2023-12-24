@@ -3,7 +3,6 @@ document.getElementById("codeForm").addEventListener("submit", function (event) 
 
     const enteredCode = document.getElementById("codeInput").value;
 
-    const TEST      = "0000";
     const KATE      = "BigKittyQuishMe";
     const MEG       = "MilanoCookie";
     const MOM       = "SheIsAbroad";
@@ -13,13 +12,10 @@ document.getElementById("codeForm").addEventListener("submit", function (event) 
     const MEME      = "IdkChangeThisLater";
 
     switch (enteredCode) {
-        case TEST:
-            window.location.href = "/chrimmas/test.html";
-            break;
-        case KATE: // done?
+        case KATE: // done
             window.location.href = "/chrimmas/kate.html";
             break;
-        case MEG:
+        case MEG: // done
             window.location.href = "/chrimmas/meg.html";
             break;
         case MOM: // done
@@ -34,7 +30,7 @@ document.getElementById("codeForm").addEventListener("submit", function (event) 
         case MEGHAN: // done
             window.location.href = "/chrimmas/meghan.html";
             break;
-        case MEME: // TODO: fix code and maybe add some stuff?
+        case MEME: // TODO: fix code
             window.location.href = "/chrimmas/meme.html";
             break;
         default:
