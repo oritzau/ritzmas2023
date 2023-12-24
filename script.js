@@ -37,15 +37,6 @@ document.getElementById("codeForm").addEventListener("submit", function (event) 
         case MEME: // TODO: fix code and maybe add some stuff?
             window.location.href = "/chrimmas/meme.html";
             break;
-        case "HINT1":
-            window.location.href = "/hint1.html"
-            break;
-        case "HINT2":
-            window.location.href = "/hint2.html"
-            break;
-        case "HINT3":
-            window.location.href = "/hint3.html"
-            break;
         default:
             break;
     }
