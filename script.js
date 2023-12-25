@@ -9,7 +9,7 @@ document.getElementById("codeForm").addEventListener("submit", function (event) 
     const DAD       = "BlooberTurtle";
     const GRANDAD   = "ButtonMan";
     const MEGHAN    = "Bubby<3";
-    const MEME      = "IdkChangeThisLater";
+    const MEME      = "TheGrinch";
 
     switch (enteredCode) {
         case KATE: // done
@@ -34,6 +34,7 @@ document.getElementById("codeForm").addEventListener("submit", function (event) 
             window.location.href = "/chrimmas/meme.html";
             break;
         default:
+            window.alert("Invalid code: make sure the capitalization matches your card");
             break;
     }
 });
